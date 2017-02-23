@@ -1,10 +1,17 @@
 from person import Person
+import igraph
+import csv
+import numpy as np
 
-a="hi"
-b="by"
-c="cat"
+reader = csv.reader('the_web.csv')
 
-per = Person("Parker", [a,b,c])
+has_next = True
+index = 0
+people =[]
+with open('the_web.csv') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for row in spamreader:
+        people.append(row)
 
-print per.name
-print per.connections
+
+print people[0,:]
