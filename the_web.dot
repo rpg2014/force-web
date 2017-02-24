@@ -3,32 +3,32 @@ graph {
   0 [
     label="Parker G"
     name="Parker G"
-    size=15
+    size=9
   ];
   1 [
     label="Skinny Matt"
     name="Skinny Matt"
-    size=15
+    size=9
   ];
   2 [
     label=Jenny
     name=Jenny
-    size=5
+    size=3
   ];
   3 [
     label=Hannah
     name=Hannah
-    size=10
+    size=6
   ];
   4 [
     label=Morgan
     name=Morgan
-    size=5
+    size=3
   ];
   5 [
     label=Nicolina
     name=Nicolina
-    size=5
+    size=3
   ];
 
   2 -- 0;

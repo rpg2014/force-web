@@ -2,6 +2,9 @@ from person import Person
 from igraph import *
 import csv
 import numpy as np
+import pygraphviz
+
+scale_size = 3
 
 reader = csv.reader('the_web.csv')
 
@@ -19,19 +22,20 @@ for i in raw_people:
     people.append(Person(i[0],i[1:]))
 
 #creating vertices
-
+print ("Creating Nodes...")
 g = Graph()
 g.add_vertices(len(people))
-summary(g)
+#summary(g)
 
 #assiging names
+print ("Naming nodes...")
 index = 0
 for i in people:
     g.vs["name"] = [i.getName() for i in people]
-    g.vs["size"] = [len(filter(None,i.getConnections()))*5 for i in people]
+    g.vs["size"] = [len(filter(None,i.getConnections()))*scale_size for i in people]
     index+=1
 
-print g.vs[0]
+
 #create a dict to lookup id's of people to assign edges to them
 dict = {}
 for i in people:
@@ -40,11 +44,12 @@ for i in people:
 #print dict
 
 #add EdgeS
+print ("Building Connections")
 for i in people:#loop through people
     for conn in i.getConnections():#loop thorugh that persons connections
         #find id of Person
         if conn:
-            print ("conn = "+ conn)
+            print ("\t"+i.getName() +"--"+ conn)
             id_of_conn = dict[conn]
             g.add_edge(i.getId(),id_of_conn)
 
