@@ -12,3 +12,6 @@ class Person:
 
     def getConnections(self):
         return self.connections
+
+    def getId(self):
+        return self.id
