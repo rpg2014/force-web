@@ -1,8 +1,8 @@
 from person import Person
 from igraph import *
 import csv
-import numpy as np
-import pygraphviz
+#import numpy as np
+#import pygraphviz
 
 scale_size = 3
 
@@ -56,7 +56,7 @@ for i in people:#loop through people
 g.vs["label"] = g.vs["name"]
 
 #print [i.getId() for i in people]
-layout = g.layout("kk")
+layout = g.layout("fr")#kk or drl, or fr
 plot(g,"the_web.png",layout = layout, margin = 20, autocurve= False)
 g.save("the_web.dot")
 #g.save("the_web.PNG")
