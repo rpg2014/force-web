@@ -3,7 +3,7 @@ graph {
   0 [
     label="Parker G"
     name="Parker G"
-    size=9
+    size=15
   ];
   1 [
     label="Skinny Matt"
@@ -28,12 +28,24 @@ graph {
   5 [
     label=Nicolina
     name=Nicolina
+    size=6
+  ];
+  6 [
+    label=Olivia
+    name=Olivia
+    size=3
+  ];
+  7 [
+    label="Katie J"
+    name="Katie J"
     size=3
   ];
 
   2 -- 0;
   3 -- 0;
   5 -- 0;
+  7 -- 0;
+  6 -- 0;
   3 -- 1;
   4 -- 1;
   5 -- 1;
@@ -42,4 +54,7 @@ graph {
   3 -- 1;
   4 -- 1;
   5 -- 1;
+  5 -- 0;
+  6 -- 0;
+  7 -- 0;
 }
