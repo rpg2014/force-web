@@ -3,22 +3,22 @@ graph {
   0 [
     label="Parker G"
     name="Parker G"
-    size=9
+    size=12
   ];
   1 [
     label="Skinny Matt"
     name="Skinny Matt"
-    size=12
+    size=15
   ];
   2 [
     label=Jenny
     name=Jenny
-    size=3
+    size=9
   ];
   3 [
     label=Hannah
     name=Hannah
-    size=9
+    size=15
   ];
   4 [
     label=Morgan
@@ -28,7 +28,7 @@ graph {
   5 [
     label=Nicolina
     name=Nicolina
-    size=3
+    size=21
   ];
   6 [
     label="Baby Tim"
@@ -48,17 +48,17 @@ graph {
   9 [
     label="Jake McGraw"
     name="Jake McGraw"
-    size=9
+    size=12
   ];
   10 [
     label=Mitch
     name=Mitch
-    size=0
+    size=21
   ];
   11 [
     label="Katie J"
     name="Katie J"
-    size=0
+    size=6
   ];
   12 [
     label="Kim D"
@@ -83,12 +83,12 @@ graph {
   16 [
     label=Gail
     name=Gail
-    size=0
+    size=6
   ];
   17 [
     label=Kelly
     name=Kelly
-    size=0
+    size=3
   ];
   18 [
     label="Allie A"
@@ -105,21 +105,183 @@ graph {
     name="Daniel T"
     size=0
   ];
+  21 [
+    label=Kristin
+    name=Kristin
+    size=9
+  ];
+  22 [
+    label=Christina
+    name=Christina
+    size=6
+  ];
+  23 [
+    label="Matt Lubin"
+    name="Matt Lubin"
+    size=24
+  ];
+  24 [
+    label="Matt Demalo"
+    name="Matt Demalo"
+    size=15
+  ];
+  25 [
+    label=Gavin
+    name=Gavin
+    size=9
+  ];
+  26 [
+    label=Christine
+    name=Christine
+    size=6
+  ];
+  27 [
+    label=Rachel
+    name=Rachel
+    size=6
+  ];
+  28 [
+    label=Olivia
+    name=Olivia
+    size=12
+  ];
+  29 [
+    label=Kaelin
+    name=Kaelin
+    size=12
+  ];
+  30 [
+    label="Pat S"
+    name="Pat S"
+    size=6
+  ];
+  31 [
+    label=Kevin
+    name=Kevin
+    size=9
+  ];
+  32 [
+    label=Carly
+    name=Carly
+    size=6
+  ];
+  33 [
+    label=Riley
+    name=Riley
+    size=9
+  ];
+  34 [
+    label="Maddie W."
+    name="Maddie W."
+    size=3
+  ];
+  35 [
+    label=Alexis
+    name=Alexis
+    size=3
+  ];
+  36 [
+    label="Julia B"
+    name="Julia B"
+    size=6
+  ];
+  37 [
+    label=Hayley
+    name=Hayley
+    size=6
+  ];
+  38 [
+    label=Bo
+    name=Bo
+    size=9
+  ];
+  39 [
+    label=Bland
+    name=Bland
+    size=9
+  ];
+  40 [
+    label="Connor P"
+    name="Connor P"
+    size=3
+  ];
+  41 [
+    label=Aya
+    name=Aya
+    size=3
+  ];
+  42 [
+    label="Mike Amico"
+    name="Mike Amico"
+    size=3
+  ];
+  43 [
+    label="Will Stein"
+    name="Will Stein"
+    size=0
+  ];
+  44 [
+    label=Ella
+    name=Ella
+    size=0
+  ];
+  45 [
+    label=Caroline
+    name=Caroline
+    size=0
+  ];
+  46 [
+    label="Jackie M"
+    name="Jackie M"
+    size=0
+  ];
+  47 [
+    label=McKenzie
+    name=McKenzie
+    size=0
+  ];
+  48 [
+    label=Jules
+    name=Jules
+    size=0
+  ];
+  49 [
+    label="Jacob C."
+    name="Jacob C."
+    size=0
+  ];
+  50 [
+    label="Pat O'Keefe"
+    name="Pat O'Keefe"
+    size=6
+  ];
 
   2 -- 0;
-  3 -- 0;
+  23 -- 0;
   5 -- 0;
+  11 -- 0;
   3 -- 1;
   4 -- 1;
   5 -- 1;
   11 -- 1;
+  16 -- 1;
   2 -- 0;
+  30 -- 2;
+  33 -- 2;
   3 -- 0;
   3 -- 1;
   15 -- 3;
+  39 -- 3;
+  10 -- 3;
   6 -- 4;
   4 -- 1;
   5 -- 1;
+  23 -- 5;
+  15 -- 5;
+  5 -- 0;
+  43 -- 5;
+  31 -- 5;
+  39 -- 5;
   7 -- 6;
   12 -- 6;
   6 -- 4;
@@ -130,6 +292,16 @@ graph {
   9 -- 7;
   14 -- 9;
   13 -- 9;
+  44 -- 9;
+  22 -- 10;
+  10 -- 2;
+  21 -- 10;
+  10 -- 7;
+  41 -- 10;
+  37 -- 10;
+  10 -- 3;
+  11 -- 0;
+  11 -- 1;
   13 -- 9;
   14 -- 9;
   15 -- 14;
@@ -140,5 +312,68 @@ graph {
   18 -- 15;
   15 -- 3;
   19 -- 15;
+  16 -- 15;
+  16 -- 8;
+  33 -- 17;
   19 -- 15;
+  23 -- 21;
+  21 -- 10;
+  30 -- 21;
+  24 -- 22;
+  22 -- 10;
+  23 -- 21;
+  23 -- 5;
+  45 -- 23;
+  28 -- 23;
+  29 -- 23;
+  27 -- 23;
+  34 -- 23;
+  35 -- 23;
+  24 -- 22;
+  28 -- 24;
+  24 -- 17;
+  46 -- 24;
+  32 -- 24;
+  27 -- 25;
+  26 -- 25;
+  29 -- 25;
+  26 -- 25;
+  29 -- 26;
+  27 -- 23;
+  27 -- 25;
+  28 -- 23;
+  28 -- 24;
+  29 -- 28;
+  38 -- 28;
+  29 -- 28;
+  29 -- 23;
+  29 -- 25;
+  29 -- 26;
+  30 -- 21;
+  47 -- 30;
+  32 -- 31;
+  31 -- 5;
+  31 -- 2;
+  32 -- 31;
+  32 -- 24;
+  33 -- 2;
+  33 -- 17;
+  36 -- 33;
+  34 -- 23;
+  35 -- 23;
+  36 -- 33;
+  39 -- 36;
+  37 -- 10;
+  38 -- 37;
+  38 -- 28;
+  38 -- 37;
+  48 -- 38;
+  39 -- 36;
+  39 -- 5;
+  39 -- 3;
+  49 -- 40;
+  41 -- 10;
+  50 -- 42;
+  50 -- 42;
+  50 -- 16;
 }

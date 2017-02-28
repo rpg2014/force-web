@@ -17,6 +17,7 @@ with open('the_web.csv') as csvfile:
         raw_people.append(row)
 
 raw_people = raw_people[1:]
+
 #making people object list
 people = []
 for i in raw_people:
