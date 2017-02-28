@@ -16,6 +16,7 @@ with open('the_web.csv') as csvfile:
     for row in spamreader:
         raw_people.append(row)
 
+raw_people = raw_people[1:]
 #making people object list
 people = []
 for i in raw_people:
@@ -40,7 +41,7 @@ for i in people:
 dict = {}
 for i in people:
     dict[i.getName()] = i.getId()
-    dict["size"] = len(filter(None,i.getConnections()))*5
+    dict["size"] = len(filter(None,i.getConnections()))*scale_size
 #print dict
 
 #add EdgeS
@@ -56,7 +57,7 @@ for i in people:#loop through people
 g.vs["label"] = g.vs["name"]
 
 #print [i.getId() for i in people]
-layout = g.layout("fr")#kk or drl, or fr
+layout = g.layout("kk")#kk or drl, or fr
 plot(g,"the_web.png",layout = layout, margin = 20, autocurve= False)
 g.save("the_web.dot")
 #g.save("the_web.PNG")

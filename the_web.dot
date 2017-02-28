@@ -3,12 +3,12 @@ graph {
   0 [
     label="Parker G"
     name="Parker G"
-    size=15
+    size=9
   ];
   1 [
     label="Skinny Matt"
     name="Skinny Matt"
-    size=9
+    size=12
   ];
   2 [
     label=Jenny
@@ -18,43 +18,127 @@ graph {
   3 [
     label=Hannah
     name=Hannah
-    size=6
+    size=9
   ];
   4 [
     label=Morgan
     name=Morgan
-    size=3
+    size=6
   ];
   5 [
     label=Nicolina
     name=Nicolina
-    size=6
+    size=3
   ];
   6 [
-    label=Olivia
-    name=Olivia
-    size=3
+    label="Baby Tim"
+    name="Baby Tim"
+    size=9
   ];
   7 [
+    label=Jessi
+    name=Jessi
+    size=12
+  ];
+  8 [
+    label=Wells
+    name=Wells
+    size=0
+  ];
+  9 [
+    label="Jake McGraw"
+    name="Jake McGraw"
+    size=9
+  ];
+  10 [
+    label=Mitch
+    name=Mitch
+    size=0
+  ];
+  11 [
     label="Katie J"
     name="Katie J"
+    size=0
+  ];
+  12 [
+    label="Kim D"
+    name="Kim D"
+    size=0
+  ];
+  13 [
+    label=Mirian
+    name=Mirian
     size=3
+  ];
+  14 [
+    label="Abby D"
+    name="Abby D"
+    size=9
+  ];
+  15 [
+    label=Preston
+    name=Preston
+    size=18
+  ];
+  16 [
+    label=Gail
+    name=Gail
+    size=0
+  ];
+  17 [
+    label=Kelly
+    name=Kelly
+    size=0
+  ];
+  18 [
+    label="Allie A"
+    name="Allie A"
+    size=0
+  ];
+  19 [
+    label="McKenzie P"
+    name="McKenzie P"
+    size=3
+  ];
+  20 [
+    label="Daniel T"
+    name="Daniel T"
+    size=0
   ];
 
   2 -- 0;
   3 -- 0;
   5 -- 0;
-  7 -- 0;
-  6 -- 0;
   3 -- 1;
   4 -- 1;
   5 -- 1;
+  11 -- 1;
   2 -- 0;
   3 -- 0;
   3 -- 1;
+  15 -- 3;
+  6 -- 4;
   4 -- 1;
   5 -- 1;
-  5 -- 0;
-  6 -- 0;
-  7 -- 0;
+  7 -- 6;
+  12 -- 6;
+  6 -- 4;
+  10 -- 7;
+  7 -- 6;
+  8 -- 7;
+  9 -- 7;
+  9 -- 7;
+  14 -- 9;
+  13 -- 9;
+  13 -- 9;
+  14 -- 9;
+  15 -- 14;
+  20 -- 14;
+  17 -- 15;
+  16 -- 15;
+  15 -- 5;
+  18 -- 15;
+  15 -- 3;
+  19 -- 15;
+  19 -- 15;
 }
