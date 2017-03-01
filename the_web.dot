@@ -13,7 +13,7 @@ graph {
   2 [
     label=Jenny
     name=Jenny
-    size=9
+    size=12
   ];
   3 [
     label=Hannah
@@ -143,7 +143,7 @@ graph {
   28 [
     label=Olivia
     name=Olivia
-    size=12
+    size=15
   ];
   29 [
     label=Kaelin
@@ -153,7 +153,7 @@ graph {
   30 [
     label="Pat S"
     name="Pat S"
-    size=9
+    size=33
   ];
   31 [
     label=Kevin
@@ -268,11 +268,26 @@ graph {
   53 [
     label=Victoria
     name=Victoria
-    size=0
+    size=3
+  ];
+  54 [
+    label=Taylor
+    name=Taylor
+    size=15
+  ];
+  55 [
+    label="Katie Sweeney"
+    name="Katie Sweeney"
+    size=3
+  ];
+  56 [
+    label=Meaghan
+    name=Meaghan
+    size=3
   ];
 
   2 -- 0;
-  23 -- 0;
+  3 -- 0;
   5 -- 0;
   11 -- 0;
   28 -- 0;
@@ -286,6 +301,7 @@ graph {
   2 -- 0;
   30 -- 2;
   33 -- 2;
+  54 -- 2;
   3 -- 0;
   3 -- 1;
   15 -- 3;
@@ -367,6 +383,7 @@ graph {
   28 -- 24;
   29 -- 28;
   38 -- 28;
+  54 -- 28;
   29 -- 28;
   29 -- 23;
   29 -- 25;
@@ -374,6 +391,14 @@ graph {
   30 -- 21;
   48 -- 30;
   44 -- 30;
+  32 -- 30;
+  30 -- 2;
+  30 -- 3;
+  30 -- 5;
+  56 -- 30;
+  30 -- 16;
+  30 -- 11;
+  30 -- 29;
   32 -- 31;
   31 -- 5;
   31 -- 2;
@@ -412,4 +437,12 @@ graph {
   52 -- 3;
   52 -- 44;
   53 -- 52;
+  53 -- 52;
+  54 -- 32;
+  54 -- 2;
+  55 -- 54;
+  54 -- 44;
+  54 -- 28;
+  55 -- 54;
+  56 -- 30;
 }
